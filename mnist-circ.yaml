@@ -1,0 +1,46 @@
+head: 'mnist-circ-final'
+dataset:
+        name: 'smnist-d'
+        fcn_mu: '[-x-2*y, -y+2*x, -z-2*a, -a+2*z]'
+        n_points: 100
+        n_test: 100
+        batch_size: 100
+        t0: 0
+        tn: 10
+        num_digits: 2
+        background: True
+        mnist: True
+        nc: 3
+        affine: False
+n_runs: 5
+n_tries: 3
+ae:
+        path: Null
+        lr: 0.001
+        net:
+                in_channels: 3
+                width: 8
+                latent_dim: 4
+                add_det: 0
+                use_skip: False
+                sigma_type: 'diag'
+                pz_var: 0
+                loss: 'exact'
+                sig_x: 0.005
+                sig_det: 0.001
+sde:
+        type: 'const-sig-nt'
+        act: 'nn.Softplus'
+        path: Null
+        width: 16
+        depth: 4
+        lr_mu: 0.0002
+        lr_sigma: 0
+optimizer:
+        name: 'Adam'
+        sched: 'ExponentialLR'
+        lr: 0.0001
+        sched_param:
+                gamma: 0.999
+        n_epochs: 500
+
