@@ -13,7 +13,7 @@ dataset:
         mnist: False
         nc: 3
         affine: False
-n_tries: 3
+inner_iter: 10
 ae:
         path: Null
         lr: 0.001

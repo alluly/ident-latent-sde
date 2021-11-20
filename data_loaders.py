@@ -425,7 +425,7 @@ def get_dna_movie_ind(base_ind, ind, path='data/DNA/'):
     return xt, ts, frames
 
 
-def get_coil(path:str, num_img=2, im_size=(64,64)):
+def get_coil(path='/home/ali/Documents/Data/coil-20-proc', num_img=2, im_size=(64,64)):
     obj_num = [4, 1, 13, 16] 
     obj_num = np.random.choice(range(1,21), num_img, replace=False)
     obj_ver = [1, 1, 1, 1] 

@@ -19,6 +19,12 @@ These are the four main functions that are used to compute properties of an expe
  
 The code is written in `PyTorch` and uses mainly dependencies of `PyTorch`. 
 
+#### DNA Dataset
+
+The data used for the DNA experiment is available here: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OJHYZA
+Download the relevant files and load them into another folder called `data/DNA/`.
+From there, the existing code should work to load the files (unfortunately cannot upload due to file size).
 
 
-
+##### Questions/Feedback
+Feel free to send the author an email on any issues or suggestions. We will continue to try to make the code more user-friendly and optimized. 
