@@ -26,5 +26,9 @@ Download the relevant files and load them into another folder called `data/DNA/`
 From there, the existing code should work to load the files (unfortunately cannot upload due to file size).
 
 
-##### Questions/Feedback
+### Questions/Feedback
 Feel free to send the author an email on any issues or suggestions. We will continue to try to make the code more user-friendly and optimized. 
+
+### Reference
+See the paper on arxiv [Identifying Latent Stochastic Differential Equations](https://arxiv.org/abs/2007.06075)
+
