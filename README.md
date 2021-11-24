@@ -31,4 +31,3 @@ Feel free to send the author an email on any issues or suggestions. We will cont
 
 ### Reference
 See the paper on arxiv [Identifying Latent Stochastic Differential Equations](https://arxiv.org/abs/2007.06075)
-
