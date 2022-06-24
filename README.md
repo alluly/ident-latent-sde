@@ -30,4 +30,19 @@ From there, the existing code should work to load the files (unfortunately canno
 Feel free to send the author an email on any issues or suggestions. We will continue to try to make the code more user-friendly and optimized. 
 
 ### Reference
-See the paper on arxiv [Identifying Latent Stochastic Differential Equations](https://arxiv.org/abs/2007.06075)
+To read the paper via open access, check the paper on arxiv [Identifying Latent Stochastic Differential Equations](https://arxiv.org/abs/2007.06075)
+The full paper is published in IEEE Transactions on Signal Processing [Identifying Latent Stochastic Differential Equations](https://ieeexplore.ieee.org/document/9632430)
+
+If the code was helpful, please consider citing the publication here: 
+```
+@article{hasan2021identifying,
+  title={Identifying Latent Stochastic Differential Equations},
+  author={Hasan, Ali and Pereira, Jo{\~a}o M and Farsiu, Sina and Tarokh, Vahid},
+  journal={IEEE Transactions on Signal Processing},
+  volume={70},
+  pages={89--104},
+  year={2021},
+  publisher={IEEE}
+}
+```
+
